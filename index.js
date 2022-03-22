@@ -12,7 +12,7 @@ app.get('/', async (req, res) => {
         <center>
             <h1>Welcome to BitCoin API</h1>
             <p>This is an API to get current Bitcoin rate, The highest & lowest Bitcoin rate in the last 30 days,in the requested currency.</p>
-            <p>To get the current Bitcoin rate, use the following URL: <a href="/api/bitcoins/info">/api/bitcoins/info</a></p>
+            <p>To get the current Bitcoin rate, use the following URL: <a href="/api/bitcoins/info?currency=EUR">/api/bitcoins/info?currency=EUR</a></p>
             <br />
             <a href="https://github.com/coderkhalide/bitcoin-api" target="_blank">Github</a>
             
