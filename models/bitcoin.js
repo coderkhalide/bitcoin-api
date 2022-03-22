@@ -1,0 +1,1 @@
+// All the functions for the bitcoin model
